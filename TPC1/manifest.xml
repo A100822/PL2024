@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC1</title>
+        <date>2024-02-10</date>
+        <author>
+            <id>a100822</id>
+            <nome>Maya Gomes</nome>
+        </author>
+        <uc>
+            <sigla>PL2024</sigla>
+            <nome>Processamento de linguagens</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Primeiro parágrafo</p>
+        <p>Segundo parágrafo</p>
+        <p>Terceiro paragrafo com <url>link</url><texto>url embutido</texto></p>
+    </resumo>
+
+    <resultados>
+        <resultado> resultado 1</resultado>
+        <resultado> resultado 2</resultado>
+    </resultados>
+
+</doc>
