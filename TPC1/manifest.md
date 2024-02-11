@@ -19,7 +19,7 @@ Assim, armazena-se a idade de cada atleta numa lista denominada "idades" e aplic
 
 
 
-##Resultados:
+## Resultados:
 **Resultados das modalidades desportivas:**
                 ['andebol', 'atletismo', 'badminton', 'basquetebol', 'btt', 'ciclismo', 'danã§a', 'equitaã§ã£o', 'esgrima', 'futebol', 'karatã©', 'orientaã§ã£o', 'parapente', 'patinagem', 'triatlo']
 **Resultados das percentagem de atletas aptos e inaptos:**
