@@ -14,14 +14,25 @@
         </uc>
     </meta>
     <resumo>
-        <p>Primeiro parágrafo</p>
-        <p>Segundo parágrafo</p>
-        <p>Terceiro paragrafo com <url>link</url><texto>url embutido</texto></p>
+        <p>Modalidades desportivas:</p>
+        <p>Atletas aptos e inaptos:</p>
+        <p>Distribuição de atletas por escalão etário:</p>
     </resumo>
 
     <resultados>
-        <resultado> resultado 1</resultado>
-        <resultado> resultado 2</resultado>
+        <resultado> Resultados das modalidades desportivas: 
+                ['andebol', 'atletismo', 'badminton', 'basquetebol', 'btt', 'ciclismo', 'danã§a', 'equitaã§ã£o', 'esgrima', 'futebol', 'karatã©', 'orientaã§ã£o', 'parapente', 'patinagem', 'triatlo']
+        </resultado>
+        <resultado> Resultados das percentagem de atletas aptos e inaptos: 
+                Percentagem de aptos para a prática desportiva: 54.00%
+                Percentagem de inaptos para a prática desportiva: 46.00%
+        </resultado>
+        <resultado> Resultados da distribuição dos atletas por escalão etário: 
+                Faixa Etária [25-29]: número de atletas: 102 percentagem: 34.00%
+                Faixa Etária [30-34]: número de atletas: 104 percentagem: 34.67%
+                Faixa Etária [20-24]: número de atletas: 80 percentagem: 26.67%
+                Faixa Etária [35-39]: número de atletas: 14 percentagem: 4.67%
+        </resultado>
     </resultados>
 
 </doc>
