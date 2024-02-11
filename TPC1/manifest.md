@@ -3,7 +3,7 @@
 
 **Objetivo:** Ler o dataset fornecido, processá-lo e criar resultados.
 
-##Etapas: 
+## Etapas: 
 Numa primeira fase abre-se o ficheiro "dataset.csv" em modo de leitura e lê-se todas as linhas do mesmo, excluindo a primeira linha (que contém os cabeçalhos). De seguida, armazena-se as diversas linhas numa lista chamada "linhas".
 Extrai-se as colunas da linha atual dividindo-a usando o "split(',')".
 
