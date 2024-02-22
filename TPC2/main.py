@@ -6,8 +6,11 @@ def markdown_to_html(markdown_text):
     markdown_text = re.sub(r'^## (.+)$', r'<h2>\1</h2>', markdown_text, flags=re.M)
     markdown_text = re.sub(r'^### (.+)$', r'<h3>\1</h3>', markdown_text, flags=re.M)
 
-    #Espaçamento
+    # Espaçamento
     markdown_text = re.sub(r'(?m)^\s*$', '<br>', markdown_text)
+
+    # Blockquote
+    markdown_text = re.sub(r'^>\s(.*?)$', r'<blockquote>\1</blockquote>', markdown_text, flags=re.MULTILINE)
 
     # Bold
     markdown_text = re.sub(r'\*{2}(.*?)\*{2}', r'<b>\1</b>', markdown_text)
